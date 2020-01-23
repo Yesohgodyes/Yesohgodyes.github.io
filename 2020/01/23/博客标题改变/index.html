@@ -10,7 +10,7 @@
     
     
     
-    <title>archive_a | AlkalineSoil&#39;s Blog</title>
+    <title>博客标题改变 | AlkalineSoil&#39;s Blog</title>
     <link href="https://yesohgodyes.github.io" rel="prefetch" />
 
     
@@ -107,7 +107,7 @@
                 
                 
                 
-                <li class="current">
+                <li class="">
                     <a href="/archives">
                         <i class="fa fa-list"></i>归档
                     </a>
@@ -160,19 +160,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
-                    <article class="article well article-body" id="article-archive">
+                    
+<article class="article well article-body" id="article">
     <div class="breadcrumb">
         <i class="fa fa-home"></i>
         <a href="https://yesohgodyes.github.io">AlkalineSoil&#39;s Blog</a>
         >
-        <span>归档</span>
+        <span>博客标题改变</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/archives">归档</a>
+                <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/">博客标题改变</a>
             </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2020-01-23
+            </span>
+            
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -180,49 +188,43 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/archives">归档</a>
+                    <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/">博客标题改变</a>
                 </h4>
             </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2020-01-23
+            </p>
+            <p>
+                
+                
+            </p>
         </center>
     </div>
-    <div class="content-article" style="margin-top: 30px;">
-        
-        
-            <h1 style="font-size: 24px; margin-top: 40px;">2020年</h1>
-            
-        <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
-            
-             
-             
-                        <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/">博客标题改变</a>
-                        <br>
-            
-             
-                        </div>
-                    <h1 style="font-size: 24px; margin-top: 40px;">2019年</h1>
-                    <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
-                 
-             
-                        <a href="/2019/03/26/blender/">blender学习使用</a>
-                        <br>
-            
-             
-                        </div>
-                    <h1 style="font-size: 24px; margin-top: 40px;">2018年</h1>
-                    <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
-                 
-             
-                        <a href="/2018/07/20/Markdown/">Markdown语法</a>
-                        <br>
-            
-             
-                        <a href="/2018/07/13/hello-world/">Hello World</a>
-                        <br>
-            
-                    </div>
-        
+    <div class="content-article">
+        <hr>
+<hr>
+<p>#创建一个 js 文件<br>我们先创建一个 js 文件，我们用记事本就好了，然后改个文件名，不妨就叫crash-cheat.js吧，你们可以随意！<br>然后把文件放到 source 文件夹的 js 文件夹的 src 里面。（我用的 next 主题，放这里统一存放，其他主题随意）</p>
+<p>###Jquery 版</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">var OriginTitle &#x3D; document.title;</span><br><span class="line">var titleTime;</span><br><span class="line">document.addEventListener(&#39;visibilitychange&#39;, function () &#123;</span><br><span class="line">  if (document.hidden) &#123;</span><br><span class="line">    $(&#39;[rel&#x3D;&quot;icon&quot;]&#39;).attr(&#39;href&#39;, &quot;https:&#x2F;&#x2F;i.loli.net&#x2F;2018&#x2F;08&#x2F;24&#x2F;5b7fcb00ed9bf.png&quot;);</span><br><span class="line">    document.title &#x3D; &#39;怎么回事╭(°A°&#96;)╮&#39;;</span><br><span class="line">    clearTimeout(titleTime);</span><br><span class="line">  &#125;</span><br><span class="line">  else &#123;</span><br><span class="line">    $(&quot;[rel&#x3D;&#39;icon&#39;]&quot;).attr(&#39;href&#39;, &quot;https:&#x2F;&#x2F;i.loli.net&#x2F;2018&#x2F;09&#x2F;25&#x2F;5baa4f21661e7.png&quot;);</span><br><span class="line">    document.title &#x3D; &#39;小老弟(ฅ&gt;ω&lt;*ฅ)&#39;;</span><br><span class="line">    titleTime &#x3D; setTimeout(function () &#123;</span><br><span class="line">      document.title &#x3D; OriginTitle;</span><br><span class="line">      $(&quot;[rel&#x3D;&#39;icon&#39;]&quot;).attr(&#39;href&#39;, &quot;&#x2F;images&#x2F;favicon-32x32-next.png&quot;);</span><br><span class="line">   &#125;, 2000);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>###JS版</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">var oldTitle &#x3D; document.title;</span><br><span class="line">var titleTime; &#x2F;&#x2F;標題恢復計時器</span><br><span class="line">document.addEventListener(&quot;visibilitychange&quot;, function () &#123;</span><br><span class="line">  if (document.hidden) &#123;</span><br><span class="line">    document.querySelector(&quot;[rel&#x3D;&#39;icon&#39;]&quot;).setAttribute(&quot;href&quot;, &quot;&#x2F;images&#x2F;icons&#x2F;favicon-32.png&quot;);</span><br><span class="line">    document.title &#x3D; &quot;崩溃了！&quot;;</span><br><span class="line">    clearTimeout(titleTime);</span><br><span class="line">  &#125; else &#123;</span><br><span class="line">    document.title &#x3D; &quot;并没有！&quot;;</span><br><span class="line">    document.querySelector(&quot;[rel&#x3D;&#39;icon&#39;]&quot;).setAttribute(&quot;href&quot;, &quot;&#x2F;images&#x2F;icons&#x2F;crash.png&quot;);</span><br><span class="line">    titleTime &#x3D; setTimeout(function () &#123;</span><br><span class="line">      document.title &#x3D; oldTitle;</span><br><span class="line">    &#125;, 1000);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>###使用<br>在hexo\themes\hexo-theme-next\layout文件路径找到layout.swig文件，其他有些主题用的是.ejs后缀，一样的。<br>然后打开文件，在<body></body>之间加入调用刚刚的 js。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;crash-cheat.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<p>重新部署博客就完成</p>
+
     </div>
 </article>
+
+
+<div id="comments-template"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script>
+	if(!window.commentConfig) {
+      window.commentConfig = {}
+      window.commentConfig.title = '博客标题改变'
+    }
+</script>
+
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
     <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
@@ -352,17 +354,17 @@
 
                 
                 <li>
-                    <a href="/archives/2019/03/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/archives/2019/03/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                    <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/archives/2019/03/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                    <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
                 
             </ul>
@@ -488,6 +490,30 @@
 <script src="/js/blog.js"></script>
 
 
+
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = 'Thu Jan 23 2020 21:32:54 GMT+0800'
+      window.commentConfig.owner = ''
+      window.commentConfig.repo = ''
+      window.commentConfig.client_id = ''
+      window.commentConfig.client_secret = ''
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: 'Thu Jan 23 2020 21:32:54 GMT+0800',
+        owner: '',
+        repo: '',
+        client_id: '',
+        client_secret: '',
+        redirect_uri: ''
+      }
+    }
+</script>
+
+<script src="/js/comment/gitment.js"></script>
 
 
 </html>
