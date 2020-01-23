@@ -1,4 +1,3 @@
-<script type="text/javascript">
 /*样式二*/
 /* 控制下雪 */
 function snowFall(snow) {
@@ -127,4 +126,3 @@ function drawSnow() {
 /* 调用及控制方法 */
 var snow = new snowFall({maxFlake:60});
 snow.start();
-</script>
