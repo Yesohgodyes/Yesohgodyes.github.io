@@ -1,3 +1,4 @@
+<script type="text/javascript" src="/js/snow.js"></script>
 /*样式二*/
 /* 控制下雪 */
 function snowFall(snow) {
