@@ -1,4 +1,7 @@
-<script>
+
+<!DOCTYPE html>
+<html>
+  <script>
   (function(){
       if('{{ page.password }}'){
           if (prompt('请输入密码') !== '{{ page.password }}'){
@@ -8,8 +11,6 @@
       }
   })();
 </script>
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -228,7 +229,7 @@
       	var [month, day] = article.date.split('-')
         ''
         ''
-        var defaultPreview = '/imgs/preview/preview4.jpg'
+        var defaultPreview = '/imgs/preview/preview1.jpg'
         var preview = article.preview ? article.preview : defaultPreview
         var path = '/' + article.path
         resultList.append(`<div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
@@ -484,6 +485,12 @@
             
             <li class="list-group-item">
                 <span class="post-title">
+                    <a href="/2019/03/26/blender/">blender学习使用</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
                     <a href="/2018/07/13/hello-world/">Hello World</a>
                 </span>
             </li>
@@ -491,12 +498,6 @@
             <li class="list-group-item">
                 <span class="post-title">
                     <a href="/2020/01/23/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E6%94%B9%E5%8F%98/">博客标题改变</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2019/03/26/blender/">blender学习使用</a>
                 </span>
             </li>
             
